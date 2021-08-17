@@ -1,0 +1,95 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-color: #34495e;
+    }
+    
+    .calculator {
+        width: 100%;
+    }
+    
+    .calculator-content {
+        width: 400px;
+        height: 500px;
+        background-color: #2c3e50;
+        border: 2px solid #2c3e50;
+        box-shadow: 0 0 20px #000;
+        margin: auto;
+        margin-top: 100px;
+        position: relative;
+    }
+    
+    .cal-keyboard {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 0;
+        height: 80%;
+    }
+    
+    .cal-keyboard button {
+        background-color: #2c3e50;
+        border: 1px solid #3C4E5F;
+        color: #fff;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    .cal-keyboard button:active {
+        font-size: 15px;
+    }
+    
+    .cal-keyboard button:hover {
+        background-color: #192a56;
+    }
+    
+    .history {
+        height: 20%;
+        background-color: #192a56;
+    }
+    
+    #history_value {
+        text-align: right;
+        padding-right: 20px;
+        font-size: 20px;
+        padding-top: 20px;
+        color: #fff;
+    }
+    
+    #outoput_value {
+        text-align: right;
+        padding-right: 20px;
+        font-size: 30px;
+        padding-top: 10px;
+        color: #fff;
+    }
+    
+    .key_operator {
+        width: 80px;
+        display: grid;
+        position: absolute;
+        top: 25%;
+        left: -50px;
+        margin: auto;
+    }
+    
+    .key_operator button {
+        height: 45px;
+        border: 1px solid #f9f5f5;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .key_operator button:hover {
+        background-color: #192a56;
+        color: #fff;
+        border: 1px solid #192a56;
+    }
+    
+    .key_operator button:active {
+        font-size: 15px;
+    }
